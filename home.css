@@ -1,0 +1,165 @@
+*{
+    box-sizing:border-box;
+}
+
+:root {
+    font-family: 'Open Sans', sans-serif;
+}
+
+html,
+body {
+margin:0;
+padding:0;
+width:100%;
+
+}
+
+/*Navbar*/
+
+.nav__login {
+    background-color: #000;
+}
+
+.navbar__login {
+    background-color:#fff;
+}
+
+.nav__login h6 {
+    text-align: right;
+    padding:0.3rem;
+    margin-right:16rem;
+    color: #fff;  
+}
+
+.nav__login span{
+    font-weight: lighter;
+}
+
+@media only screen and (max-width: 990px){
+    .nav__login h6,
+    .nav {
+        margin-right:1rem;
+    }  
+
+}
+
+.nav__login h6 a{
+    color: #fff;
+}
+
+.navbar-brand {
+    padding: 0.2rem;
+    margin: 0 4rem 0 11rem;
+    
+}
+
+.btn {
+    text-transform: uppercase;
+    font-family: 'Open sans - Extrabold', Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-style: 10px;
+    background-color:rgb(211, 19, 19);
+    color: #fff;
+    border-radius: unset;
+    margin-left: -1px;   
+    
+}
+
+.btn-outline-success {
+    width: 80%;
+    margin-right: 10rem;
+ }
+ 
+ .btn-outline-success:hover{
+     background-color:rgb(192, 12, 12);
+ }
+ 
+
+.d-flex {
+    margin:1.5rem;
+    margin-right: 5.5rem;
+    width: 40vw;
+       
+}
+
+.form-control {
+    width: 100vw !important;
+    
+}
+
+.nav {
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding:0 174px;
+    background-color: rgb(211, 19, 19);
+    margin-right: 10px;        
+}
+
+.nav-link {       
+    text-transform: uppercase;
+    list-style: none; 
+    color: #fff;
+    font-weight: bolder; 
+            
+}
+
+.nav-link:hover{
+    color: rgb(139, 7, 7);
+}
+
+
+/*Aside*/
+.list-group-item-action {    
+    color: #000;
+    line-height: 0.2rem;    
+    list-style: none;  
+    padding:1rem; 
+    background-color: rgb(221, 215, 215);  
+    border:none !important;
+    
+    height: 95px;              
+    width: 13vw;  
+    
+}
+
+.list-group { 
+    display: flex;   
+    flex-flow: wrap;
+    margin:1rem 70rem 10rem 12rem; 
+    
+    
+    
+}
+
+/*Main*/
+.welcome__container {
+    cursor:default;
+    margin: -10rem 1rem 1rem 26rem;
+    height: 30vh;
+    width: 55vw;
+    border: none;
+    background-color:rgb(179, 174, 174) ;
+    margin-top: -39.5rem;
+    
+}
+
+
+.welcome__container-texto {
+    cursor:default;
+    margin: 4rem 16rem 0 26rem;
+    text-align: justify;
+    line-height: 0.9rem;
+    font-size: 13.5px;
+    
+}
+
+/*Footer*/
+.footer__container {
+    margin: 4.6rem -10rem 1rem 12rem;
+    height: 20vh;
+    width: 72vw;
+    border: none;
+    background-color:rgb(211, 19, 19) ;
+    
+}

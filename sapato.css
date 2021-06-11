@@ -1,0 +1,340 @@
+*{
+    box-sizing:border-box;
+}
+
+:root {
+    font-family: 'Open Sans', sans-serif;
+}
+
+html,
+body {
+margin:0;
+padding:0;
+width:100%;
+}
+
+/*Navbar*/
+
+
+.nav__login {
+    background-color: #000;
+}
+
+.nav__login h6 {
+    text-align: right;
+    padding:0.3rem;
+    margin-right:15.5rem;
+    color: #fff;  
+}
+
+.nav__login span{
+    font-weight: lighter;
+}
+
+@media only screen and (max-width: 990px){
+    .nav__login h6 {
+        margin-right:1rem;
+    }
+
+}
+
+.nav__login h6 a{
+    color: #fff;
+}
+
+.navbar-brand {
+    padding: 0.2rem;
+    margin: 0 4rem 0 11rem;
+    
+}
+
+.btn {
+    text-transform: uppercase;
+    font-family: 'Open sans - Extrabold', Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-style: 10px;
+    background-color:rgb(211, 19, 19);
+    color: #fff;
+    border-radius: unset;
+    margin-left: -20px;
+    
+    
+}
+
+.btn-outline-success {
+   width: 80%;
+   margin-right: 10rem;
+}
+
+.btn-outline-success:hover{
+    background-color:rgb(192, 12, 12);
+}
+
+.d-flex {
+    margin:1.5rem;
+    margin-right: 5rem;
+    width: 40vw;
+           
+}
+
+.form-control {
+    width: 100vw !important;
+    border-radius: 1%;
+}
+
+.nav {
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding:0 174px;
+    background-color: rgb(211, 19, 19);
+    margin-right: 10px; 
+    width: 100%;      
+}
+
+.nav-link {       
+    text-transform: uppercase;
+    list-style: none; 
+    color: #fff;
+    font-weight:bolder;             
+}
+
+.nav-link:hover{
+    color: rgb(139, 7, 7);
+}
+
+/*Main*/
+
+.side-menu {
+    display: inline-block; 
+    margin-left: 11.8rem;
+}
+
+.side-menu__header {
+      font-size: 1rem;
+      margin-top: -0.5rem;
+      margin-left: .10rem;
+ }
+
+ .side-menu-box__type--ul,
+ .side-menu-box__categories--ul {
+     list-style: none;
+ }
+.big-title {
+    color: #CC0D1F;
+    text-transform: uppercase;
+    font-weight: 900; 
+    font-size: 1.5rem;
+}
+
+.small-title {
+    color: #699693;
+    text-transform: uppercase; 
+    font-weight: 700; 
+    margin-top: -1rem;
+
+}
+.side-menu__header--type {
+    color: #CC0D1F; 
+}
+
+.side-menu-box {
+      border: 1px solid #d3d3d3;
+      width: 20rem;
+      padding: 1rem; }
+
+.side-menu-box__categories--ul,
+.side-menu-box__type--ul {
+        list-style-position: inside; 
+    
+}
+
+.side-menu-box__categories--li a:link,
+.side-menu-box__categories--li a:visited,
+.side-menu-box__type--ul a:link,
+.side-menu-box__type--ul a:visited {
+        color: #7c7c7c;
+        text-decoration: none; 
+}
+
+.side-menu-box__categories--li a:hover,
+.side-menu-box__type--ul a:hover{
+        text-decoration: underline; 
+ }
+
+.side-menu-box__colors--li {
+        margin: .2rem .2rem 0 0;
+        display: inline-block;
+        width: 3rem;
+        height: 2rem; 
+}
+
+.side-menu-box__colors-vermelho {
+        margin-left: -1rem;  
+        display: inline-block;
+        background-color: rgb(221, 6, 6); 
+        width:40px;
+        height:20px;            
+}
+        
+.side-menu-box__colors-laranja {
+        display: inline-block;
+        background-color: rgb(252, 164, 1); 
+        width:40px;
+        height:20px;
+}
+        
+.side-menu-box__colors-azul {
+        display: inline-block;
+        background-color: rgb(22, 153, 240);
+        width:40px;
+        height:20px;
+ }
+
+.u-margin-top {
+    margin-top: 2rem; 
+    width:13rem;
+}
+ 
+
+ /*Nav lista sapatos*/
+
+.container__iconelista {
+       margin-left: .2rem;   
+      
+}
+
+.container__sapatos {
+    margin-top: 7.7rem;
+}
+
+.container__sapatos-texto {
+    margin-top: -34rem;
+    margin-left: 27rem;
+}
+
+.container__sapatos-texto h5 {
+    text-transform: uppercase;
+    color: rgb(221, 6, 6);
+}
+
+.input-group {
+   margin-left: 32rem;
+}
+
+.input-group {
+    margin-top: -1.5rem;
+}
+.input-group-prepend {
+    margin-right: 0.4rem;
+    margin-top: .3rem;        
+}
+
+.input-group-prepend h6{
+    color:rgb(115, 127, 128);
+    font-weight:bold;
+    font-size: 10px;
+    text-transform: uppercase;    
+    margin-top: .3rem;  
+}
+
+.custom-select {
+    padding-right: 5rem;    
+}
+
+
+/*itens-sapatos*/
+
+.container__sapatos-venda {    
+    float: left;    
+}
+
+.container__sapatos-venda2 {
+    position: absolute;
+    margin-top:400px;
+}
+
+.container__sapatos-venda3 {
+    position: absolute;
+    margin-top:800px;
+}
+
+.card-text-before {
+    color:rgb(114, 111, 111);
+    font-size: 14px;
+    font-weight: normal;
+}
+.card {    
+    left: 420px;
+    border-radius: 1px;  
+}
+
+.card-title {
+    margin-top:10px;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: rgb(114, 111, 111);  
+    text-align: center; 
+    
+}
+
+.card-text {
+    color: rgb(211, 19, 19);
+    font-weight: bolder;
+    font-size: 20px;
+    bottom:-20px;
+    text-align: center;
+}
+
+.btn-primary {
+    border-radius: 5px;
+    border:none;
+    background-color: rgb(115, 187, 187);
+    width: 12vw;
+    margin-left: -15px;
+}
+
+.btn-primary:hover{
+    background-color: rgb(8, 131, 168);
+}
+
+/*Footer*/
+
+.pagination {
+    display:flex;
+    position: absolute;
+    bottom:-52.5rem;
+    left:48rem;
+}
+
+.pagination h1{
+    font-size: 15px;      
+}
+
+.pagination1,
+.pagination2,
+.pagination4,
+.pagination5 {
+    color:rgb(102, 100, 100);  
+    text-decoration: none;
+}
+.paginationbefore,
+.paginationafter {
+    text-decoration: none;
+    font-weight: 900;
+}
+
+.footer__container {
+    margin-top:75rem;
+    margin-bottom: 3rem;
+    margin-left: 12rem;
+    margin-right: 1rem;
+    height: 20vh;
+    width: 72vw;
+    border: none;
+    background-color:rgb(211, 19, 19);   
+}
+
+
+/*Responsive*/
